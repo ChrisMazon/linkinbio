@@ -1,1 +1,165 @@
-<h1>This is my homepage</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title> Christopher Mazon</title>
+
+  <link rel="stylesheet" href="/styles.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+  <style>
+    
+    .banner {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .banner-image {
+      width: 128px;
+      height: 128px;
+      border-radius: 128px;
+      border: thick white solid;
+    
+    }
+
+    .name {
+      color: white;
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      text-shadow: 0 0 10px black;
+
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: space-around;
+
+    }
+
+    .social-icons a:hover {
+      filter: invert();
+    
+    }
+    
+    .social-icons a {
+      color: white;
+      text-decoration: none;
+      justify-content: center;
+
+    }
+    
+    .link {
+      background-color: rgba(176,176,176, 0.3);
+      border-radius: 50px;
+      box-shadow: 0 0 5px black;
+      display: flex;
+      align-items: center;
+      padding: 5px;
+    }
+
+    .link:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+      transform: scale(1.1) perspective(1px);
+    }
+
+    .link a {
+      color: white;
+      text-shadow: 0 0 5px black;
+      text-decoration: none;
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 640px;
+      flex-grow: 1;
+    }
+
+    .thumnail {
+      width: 48px;
+      height: 48px;
+      border-radius: 48px;
+      object-fit: cover;
+    }
+
+    body {
+
+      font-family: 'Fredoka One', cursive;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      display: flex;
+      justify-content: center;
+
+	    background: linear-gradient(-45deg, #ee7752, red, #e73c7e, #23a6d5, #23d5ab, yellow, lime);
+	    background-size: 400% 400%;
+	    animation: gradient 8s ease infinite;
+	    height: 100vh;
+    }
+
+    @keyframes gradient {
+	    0% {
+		  background-position: 0% 50%;
+	  }
+	    50% {
+	  	background-position: 100% 50%;
+	  }
+	    100% {
+		  background-position: 0% 50%;
+	  }
+  }
+
+  </style>
+</head>
+
+<body>
+  
+  <div class="items">
+
+  <div class="banner">
+    <img src="doggy.jpg" alt="Tom Cat Face" class="banner-image">
+  </div>
+
+  <div class="name">
+    Christopher Mazon
+  </div>
+
+  <div class = "social-icons">
+    <a href = "https://github.com/ChrisMazon" target="_blank">
+      <img src="github.png" class="social-icons" width="45px">
+    </a>
+
+    <a href = "https://www.linkedin.com/in/christopher-mazon-1b836124a/" target = "_blank">
+      <img src="linkedin.png" class="social-icons" width="45px">
+    </a>
+
+    <a href = "https://www.instagram.com/chrismazon32/" target="_blank">
+      <img src="instagram.png" class="social-icons" width="45px">
+    </a>
+  </div>
+
+  <div class="link">
+    <img src="question-mark.png" class="thumnail">
+    <a target="_blank" href="">Ideas Will Come</a>
+  </div>
+  
+  <div class="link">
+    <img src="question-mark.png" class="thumnail">
+    <a target="_blank" href="">Ideas Will Come</a>
+  </div>
+
+  <div class="link">
+    <img src="question-mark.png" class="thumnail">
+    <a target="_blank" href="">Ideas Will Come</a>
+  </div>
+
+  </div>
+
+</body>
+
+</html>
