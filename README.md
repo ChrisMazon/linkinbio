@@ -1,3 +1,3 @@
-# static-html-template
+# Christopher Mazon's LinkInBio
 
-Use this template to create static HTML websites and deploy them on Render.
+Little LinkTree inspired website to share my socials and projects to everyone! Nut much there yet but will be getting updated soon!
